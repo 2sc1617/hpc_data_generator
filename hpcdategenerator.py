@@ -110,7 +110,7 @@ def main():
         #simulation_dic["date_sto"] = simulation_dic["date_sto"].isoformat()
         
         list_of_simulations.append(simulation_dic)
-        #f_add_db(simulation_dic)
+        f_add_db(simulation_dic)
 
     # print Json in screen
     print(json.dumps(list_of_simulations, indent=4, default=str))    

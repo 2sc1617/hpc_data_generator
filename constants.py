@@ -1,8 +1,12 @@
+#--------------------------------------------------------------------------------------------------#
+#                           Data to choose Explicit || Implicit 
+#--------------------------------------------------------------------------------------------------#
 # For 10 simulations 8 are Explicit and 2 Implicit
 INT_SCHEME = ["EXPLICIT" for i in range(8)] + ["IMPLICIT" for i in range(2)] 
 
-# Here is a data structure from where random values will be generated
-# Data for explicit simulations
+#--------------------------------------------------------------------------------------------------#
+#                           Data for explicit simulations
+#--------------------------------------------------------------------------------------------------#
 DATA_EXP = {
     "version": [
         "2020.00", "2020.01", "2020.02", "2020.03",
@@ -25,7 +29,9 @@ DATA_EXP = {
     "elapsed_time_ave": 28800,
     "elapsed_time_dev": 8000,
 }
-# Data for implicit simulations
+#--------------------------------------------------------------------------------------------------#
+#                           Data for implicit simulations
+#--------------------------------------------------------------------------------------------------#
 DATA_IMP = {
     "version": [
         "2020.00", "2020.01",
